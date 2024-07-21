@@ -15,7 +15,7 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
-    backgroundColor: '#ffffff',
+    backgroundColor: '#ADD8E6',
   },
   logo: {
     width: '150px',

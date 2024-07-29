@@ -73,7 +73,7 @@ const Dashboard = () => {
             borderRadius: borderRadiusLG,
           }}
         >
-          Content
+        <img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Ficonscout.com%2Flottie-animations%2Ffeedback&psig=AOvVaw1iXB-BSf_A6T-csjxqaIPt&ust=1721746912057000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOiIyKD1uocDFQAAAAAdAAAAABAEhttps://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fapply-feedback&psig=AOvVaw1iXB-BSf_A6T-csjxqaIPt&ust=1721746912057000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOiIyKD1uocDFQAAAAAdAAAAABAJ'/>
         </Content>
       </Layout>
     </Layout>

@@ -2,7 +2,7 @@ import React from 'react';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input, Card } from 'antd';
 import { useNavigate, Link } from 'react-router-dom';
-import IMAGE from '../images/login banner.jpg';
+import IMAGE from '../images/login_banner-removebg-preview.png';
 
 const Register = () => {
   const navigate = useNavigate();
@@ -13,7 +13,7 @@ const Register = () => {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#ADD8E6', position: 'relative' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', position: 'relative' }}>
       {/* Left side (form) */}
       <div style={{ width: '50%', display: 'flex', justifyContent: 'center' }}>
         <Card style={{ width: 400, padding: '20px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }}>
@@ -113,9 +113,9 @@ const Register = () => {
         </Card>
       </div>
 
-      {/* Right side (image) - You can optionally add an image on the right side if needed */} */}
+      {/* Right side (image) - You can optionally add an image on the right side if needed */} 
       <div style={{ width: '50%', textAlign: 'center' }}>
-        <img src={IMAGE} style={{ maxWidth: '90%', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }} />
+        <img src={IMAGE} style={{ maxWidth: '90%', borderRadius: '8px' }} />
       </div>
 
       {/* Top left logo - You can add your logo here as in the Login component */}
@@ -123,7 +123,7 @@ const Register = () => {
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-cXFuavrc6SQ1s7DJvs55FQ-BF0bqYSM-iw&s"
           alt="logo"
-          style={{ width: '100%', height: '100%', borderRadius: '50%' }}
+          style={{ width: '100%', height: '100%', borderRadius: '50%', backgroundColor:"blue" }}
         />
       </div>
     </div>

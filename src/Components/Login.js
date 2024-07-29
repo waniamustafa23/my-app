@@ -2,7 +2,7 @@ import React from 'react';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input, Card } from 'antd';
 import { useNavigate, Link } from 'react-router-dom';
-import IMAGE from '../images/login banner.jpg';
+import IMAGE from '../images/login_banner-removebg-preview.png';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -13,7 +13,7 @@ const Login = () => {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#ADD8E6', position: 'relative' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', position: 'relative' }}>
       {/* Left side (form) */}
       <div style={{ width: '50%', display: 'flex', justifyContent: 'center' }}>
         <Card style={{ width: 400, padding: '20px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }}>
@@ -78,7 +78,7 @@ const Login = () => {
       {/* Right side (image) */}
       <div style={{ width: '50%', textAlign: 'center' }}>
         {/* Replace the URL with your image */}
-        <img src={IMAGE} style={{ maxWidth: '90%', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }} />
+        <img src={IMAGE} style={{ maxWidth: '90%',  }} />
       </div>
 
       {/* Top left logo */}
